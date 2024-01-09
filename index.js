@@ -3,8 +3,8 @@ import { getDatabase, ref, push, onValue, remove, set } from "https://www.gstati
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: process.env.ROAD_WALLET_DB
-};
+  databaseURL: "https://fir-is-hard-default-rtdb.firebaseio.com/",
+}
 
 // Initialize Firebase App and Database Reference
 const app = initializeApp(firebaseConfig);
